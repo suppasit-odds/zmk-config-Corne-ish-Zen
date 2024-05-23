@@ -35,10 +35,10 @@
             //                    | GUI | LWR | ENT |   | SPC | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E     &kp R       &kp T      &kp Y      &kp U       &kp I      &kp O    &kp P     &kp BSPC
-&kp LCTRL  &kp A  &kp S  &kp D     &kp F       &kp G      &kp H      &kp J       &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C     &kp V       &kp B      &kp N      &kp M       &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-                         &kp LGUI  &mo NUMBER  &kp RET    &kp SPACE  &mo SYMBOL  &kp RALT
+&kp TAB    &kp Q        &kp W           &kp E           &kp R         &kp T      &kp Y      &kp U              &kp I            &kp O            &kp P           &kp BSPC
+&kp LCTRL  &mt LCTRL A  &mt LEFT_ALT S  &mt LEFT_GUI D  &mt LSHIFT F  &kp G      &kp H      &mt RIGHT_SHIFT J  &mt RIGHT_GUI K  &mt RIGHT_ALT L  &mt RCTRL SEMI  &kp SQT
+&kp LSHFT  &kp Z        &kp X           &kp C           &kp V         &kp B      &kp N      &kp M              &kp COMMA        &kp DOT          &kp FSLH        &kp RSHFT
+                                        &kp LGUI        &mo NUMBER    &kp RET    &kp SPACE  &mo SYMBOL         &kp RALT
             >;
         };
 
@@ -52,10 +52,10 @@
             //                    | GUI |     | ENT |   | SPC |     | ALT |
 
             bindings = <
-&kp ESC    &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6     &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
-&kp LCTRL  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT  &trans  &kp C_VOLUME_UP
-&kp LSHFT  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans     &trans    &trans    &trans     &trans  &kp C_VOLUME_DOWN
-                                       &kp LGUI      &trans        &kp RET         &kp SPACE  &trans    &kp RALT
+&kp ESC    &kp N1        &kp N2        &kp N3      &kp N4        &kp N5          &kp N6        &kp N7        &kp N8        &kp N9        &kp N0        &kp BSPC
+&kp LCTRL  &kp F1        &kp F2        &kp F3      &kp F4        &kp F5          &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT     &bt BT_CLR    &kp C_VOLUME_UP
+&kp LSHFT  &kp C_BRI_DN  &kp C_BRI_UP  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp C_VOLUME_DOWN
+                                       &kp LGUI    &trans        &kp RET         &kp SPACE     &trans        &kp RALT
             >;
         };
 
